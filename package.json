@@ -1,0 +1,37 @@
+{
+  "name": "sam-snap",
+  "version": "1.0.0",
+  "description": "NodeJS SNAP interface",
+  "homepage": "https://github.com/SAMdesk/sam-snap",
+  "author": "SAM <admin@samdesk.io>",
+  "contributors": [
+    "Trevon Romanuik <trevon@samdesk.io>",
+    "Jordan Ching <ching@samdesk.io>",
+    "Sean Solbak <sean@samdesk.io>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SAMdesk/sam-snap.git"
+  },
+  "bugs:": "https://github.com/SAMdesk/sam-snap/issues",
+  "engines": {
+    "node": ">= v0.10.0"
+  },
+  "main": "lib/snap.js",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "lodash": "4.17.4",
+    "jsonwebtoken": "8.3.0",
+    "cross-fetch": "2.2.1",
+    "graphql-tag": "2.9.2",
+    "request": "2.36.0",
+    "apollo-boost": "0.1.8",
+    "apollo-link-http": "1.5.4",
+    "apollo-cache-inmemory": "1.2.6"
+  },
+  "scripts": {
+
+  }
+}
