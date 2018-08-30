@@ -18,9 +18,6 @@
     "node": ">= v0.10.0"
   },
   "main": "lib/snap.js",
-  "devDependencies": {
-
-  },
   "dependencies": {
     "lodash": "4.17.4",
     "jsonwebtoken": "8.3.0",
@@ -31,6 +28,10 @@
     "apollo-boost": "0.1.8",
     "apollo-link-http": "1.5.4",
     "apollo-cache-inmemory": "1.2.6"
+  },
+  "devDependencies" : {
+    "mocha": "2.5.3",
+    "should": "11.1.2"
   },
   "scripts": {
 
