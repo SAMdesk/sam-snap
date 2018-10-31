@@ -25,7 +25,6 @@ describe.skip('snap search tests', () => {
         client.searchSnaps(query, (err, result) => {
             should.not.exist(err);
             should.exist(result.snaps);
-            should.exist(result.nextSnapOffset);
             //(result.snaps.length).should.be.greaterThan(1);
             return done();
         });
@@ -48,7 +47,6 @@ describe.skip('snap search tests', () => {
         client.searchSnaps(query, (err, result) => {
             should.not.exist(err);
             should.exist(result.snaps);
-            should.exist(result.nextSnapOffset);
             (result.snaps.length).should.be.greaterThan(1);
             return done();
         });
@@ -66,7 +64,6 @@ describe.skip('snap search tests', () => {
         client.searchSnaps(query, (err, result) => {
             should.not.exist(err);
             should.exist(result.snaps);
-            should.exist(result.nextSnapOffset);
             (result.snaps.length).should.be.greaterThan(1);
             return done();
         });

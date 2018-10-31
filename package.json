@@ -19,21 +19,19 @@
   },
   "main": "lib/snap.js",
   "dependencies": {
-    "lodash": "4.17.4",
-    "jsonwebtoken": "8.3.0",
+    "apollo-boost": "0.1.8",
+    "apollo-cache-inmemory": "1.3.8",
+    "apollo-link-http": "1.5.4",
     "cross-fetch": "2.2.1",
     "graphql": "0.11.7",
     "graphql-tag": "2.9.2",
-    "request": "2.36.0",
-    "apollo-boost": "0.1.8",
-    "apollo-link-http": "1.5.4",
-    "apollo-cache-inmemory": "1.2.6"
+    "jsonwebtoken": "8.3.0",
+    "lodash": "4.17.11",
+    "request": "2.36.0"
   },
-  "devDependencies" : {
+  "devDependencies": {
     "mocha": "2.5.3",
     "should": "11.1.2"
   },
-  "scripts": {
-
-  }
+  "scripts": {}
 }
