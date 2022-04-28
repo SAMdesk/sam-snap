@@ -22,7 +22,7 @@
     "apollo-boost": "0.4.2",
     "apollo-cache-inmemory": "1.5.0",
     "apollo-link-http": "1.5.11",
-    "cross-fetch": "3.0.1",
+    "cross-fetch": "3.1.5",
     "graphql": "14.1.1",
     "graphql-tag": "2.10.1",
     "jsonwebtoken": "8.3.0",
